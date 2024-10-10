@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default styles (Light Mode) */
+body {
+  background-color: #ffffff; /* light background */
+  color: #000000; /* dark text */
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  color: #000000; /* default black for text in light mode */
+}
+
+/* Dark Mode styles */
+body.dark {
+  background-color: #121212; /* dark background */
+  color: #ffffff; /* light text */
+}
+
+/* Dark mode for text elements */
+body.dark h1, 
+body.dark h2, 
+body.dark h3, 
+body.dark h4, 
+body.dark h5, 
+body.dark h6, 
+body.dark p, 
+body.dark a {
+  color: #ffffff; 
+}
+
+/* Social button styles */
+.social {
+    padding: 0.4rem !important;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+
+
+
+
